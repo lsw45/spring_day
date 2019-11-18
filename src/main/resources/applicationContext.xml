@@ -2,10 +2,37 @@
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xmlns:context="http://www.springframework.org/schema/context"
-       xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
-        http://maven.apache.org/xsd/maven-4.0.0.xsd
-        http://www.springframework.org/schema/context">
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd">
 
     <!--开启注解扫描-->
-    <context:component-scan base-package="cn.itcast"/>
+<!--    <context:component-scan base-package="cn.itcast"/>-->
+
+    <!--配置service-->
+    <bean id="customerService" class="cn.itcast.service.impl.CustomerServiceImpl">
+        <!--给业务层注入dao-->
+        <property name="customerDao" ref="customerDao"/>
+    </bean>
+
+    <!--配置dao-->
+    <bean id="customerDao" class="cn.itcast.dao.impl.CustomerDaoImpl">
+        <!--给dao层注入jdbcTemplate-->
+        <property name="jdbcTemplate" ref="jdbcTemplate"/>
+    </bean>
+
+    <!--配置jdbcTemplate-->
+    <bean id="jdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate">
+        <!--给jdbcTemplate层注入数据源-->
+        <constructor-arg name="dataSource" ref="dataSource"/>
+    </bean>
+
+    <!--配置数据源-->
+    <bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource">
+        <property name="driverClassName" value="com.mysql.cj.jdbc.Driver"/>
+        <property name="url" value="jdbc:mysql://localhost:3306/chanzhi?serverTimezone=UTC"/>
+        <property name="username" value="root"/>
+        <property name="password" value="root"/>
+    </bean>
 </beans>
