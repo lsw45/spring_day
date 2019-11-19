@@ -8,19 +8,19 @@
         http://www.springframework.org/schema/context/spring-context.xsd">
 
     <!--开启注解扫描-->
-<!--    <context:component-scan base-package="cn.itcast"/>-->
+    <context:component-scan base-package="cn.itcast"/>
 
-    <!--配置service-->
+    <!--&lt;!&ndash;配置service&ndash;&gt;
     <bean id="customerService" class="cn.itcast.service.impl.CustomerServiceImpl">
-        <!--给业务层注入dao-->
+        &lt;!&ndash;给业务层注入dao&ndash;&gt;
         <property name="customerDao" ref="customerDao"/>
     </bean>
 
-    <!--配置dao-->
+    &lt;!&ndash;配置dao&ndash;&gt;
     <bean id="customerDao" class="cn.itcast.dao.impl.CustomerDaoImpl">
-        <!--给dao层注入jdbcTemplate-->
+        &lt;!&ndash;给dao层注入jdbcTemplate&ndash;&gt;
         <property name="jdbcTemplate" ref="jdbcTemplate"/>
-    </bean>
+    </bean>-->
 
     <!--配置jdbcTemplate-->
     <bean id="jdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate">
