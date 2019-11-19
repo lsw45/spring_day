@@ -1,41 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8c76fede-8319-4570-89a8-06e3f955386c" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="8c76fede-8319-4570-89a8-06e3f955386c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/config/JdbcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/config/SpringConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/itcast/config/JdbcConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/itcast/config/SpringConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/itcast/dao/impl/CustomerDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/dao/impl/CustomerDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/itcast/service/impl/CustomerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/service/impl/CustomerServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/itcast/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/itcast/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/itcast/action/UserAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/itcast/action/UserAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/itcast/dao/CustomerDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/itcast/dao/CustomerDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/itcast/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/itcast/dao/UserDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/itcast/dao/impl/CustomerDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/itcast/dao/impl/CustomerDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/itcast/dao/impl/UserDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/itcast/dao/impl/UserDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/itcast/dao/impl/UserDaoImpl2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/itcast/dao/impl/UserDaoImpl2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/itcast/domain/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/itcast/domain/Customer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/itcast/service/CustomerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/itcast/service/CustomerService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/itcast/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/itcast/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/itcast/service/impl/CustomerServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/itcast/service/impl/CustomerServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/itcast/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/itcast/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/cn/itcast/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/cn/itcast/AppTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/cn/itcast/TestFind.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/cn/itcast/TestFind.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/cn/itcast/TestIOC.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/cn/itcast/TestIOC.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="FxmlFile" />
-        <option value="Interface" />
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="localRepository" value="D:\workspace\maven_repository" />
-        <option name="mavenHome" value="D:/programFiles/apache-maven-3.6.2" />
-        <option name="userSettingsFile" value="D:\programFiles\apache-maven-3.6.2\conf\settings.xml" />
-      </MavenGeneralSettings>
-    </option>
-  </component>
-  <component name="ProjectId" id="1TkSEm83ecz0iSV2FPJ09OYxupY" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
-  </component>
-  <component name="PropertiesComponent">
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -49,107 +53,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestFind.test1">
-    <configuration name="TestFind.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring_day" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.itcast.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cn.itcast" />
-      <option name="MAIN_CLASS_NAME" value="cn.itcast.TestFind" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestIOC" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring_day" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.itcast.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cn.itcast" />
-      <option name="MAIN_CLASS_NAME" value="cn.itcast.TestIOC" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestIOC.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring_day" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.itcast.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cn.itcast" />
-      <option name="MAIN_CLASS_NAME" value="cn.itcast.TestIOC" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestIOC.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring_day" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.itcast.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cn.itcast" />
-      <option name="MAIN_CLASS_NAME" value="cn.itcast.TestIOC" />
-      <option name="METHOD_NAME" value="test2" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestIOC.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring_day" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.itcast.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cn.itcast" />
-      <option name="MAIN_CLASS_NAME" value="cn.itcast.TestIOC" />
-      <option name="METHOD_NAME" value="test3" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JUnit.TestFind.test1" />
-        <item itemvalue="JUnit.TestIOC.test3" />
-        <item itemvalue="JUnit.TestIOC.test1" />
-        <item itemvalue="JUnit.TestIOC.test2" />
-        <item itemvalue="JUnit.TestIOC" />
-      </list>
-    </recent_temporary>
-  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="8c76fede-8319-4570-89a8-06e3f955386c" name="Default Changelist" comment="" />
-      <created>1574002490438</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1574002490438</updated>
-    </task>
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -157,9 +64,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
