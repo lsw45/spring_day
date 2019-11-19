@@ -9,7 +9,7 @@ import java.util.List;
 
 @Service("customerService")
 public class CustomerServiceImpl implements CustomerService {
-    @Autowired
+    @Autowired(required = false)
     private CustomerDao customerDao;
 
 //    public void setCustomerDao(CustomerDao customerDao) {
