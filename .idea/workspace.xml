@@ -2,14 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a324375-fb08-4f65-ab63-d23a2614be10" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/service/AccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/service/impl/AccountServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/cn/itcast/TestTransferMoney.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cn/itcast/TestJdbcTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cn/itcast/TestJdbcTemplate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/cn/itcast/config/JdbcConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/itcast/config/JdbcConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/itcast/dao/AccountDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/itcast/dao/AccountDao.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/cn/itcast/dao/CustomerDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/itcast/dao/CustomerDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/itcast/dao/impl/AcountDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/itcast/dao/impl/AcountDaoImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/cn/itcast/dao/impl/CustomerDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/itcast/dao/impl/CustomerDaoImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/cn/itcast/dao/impl/UserDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/itcast/dao/impl/UserDaoImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/cn/itcast/dao/impl/UserDaoImpl2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/itcast/dao/impl/UserDaoImpl2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/itcast/domain/Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/itcast/domain/Account.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/itcast/rowmapper/AccountRowMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/itcast/rowmapper/AccountRowMapper.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/cn/itcast/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/itcast/service/impl/UserServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/cn/itcast/TestFind.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/cn/itcast/TestFind.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/cn/itcast/TestIOC.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/cn/itcast/TestIOC.class" afterDir="false" />
@@ -23,8 +30,31 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/programFiles/apache-maven-3.6.2" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="cn.itcast.service" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
