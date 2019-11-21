@@ -28,7 +28,7 @@ public class UserServiceImpl implements UserService {
         System.out.println("调用了无参构造方法...");
     }
 
-    @PostConstruct //调用该方法初始化对象，类似于xml的init-method方法
+    @PostConstruct //构造方法之后自动调用，可以用此方法初始化对象，类似于xml的init-method方法
     public void init(){
         System.out.println("调用了init方法...");
     }
