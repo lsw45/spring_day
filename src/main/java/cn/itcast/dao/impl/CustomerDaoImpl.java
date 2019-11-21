@@ -21,7 +21,13 @@ public class CustomerDaoImpl implements CustomerDao {
 
     @Override
     public List<Customer> findAll(){
+        System.out.println(jdbcTemplate);
         List<Customer> list = jdbcTemplate.query("select * from cst_customer",new BeanPropertyRowMapper<Customer>(Customer.class));
         return list;
+    }
+
+    @Override
+    public int save(){
+        return 1;
     }
 }

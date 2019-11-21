@@ -14,18 +14,18 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 import java.util.List;
 
-//@RunWith(SpringJUnit4ClassRunner.class)
+@RunWith(SpringJUnit4ClassRunner.class)
 //@ContextConfiguration("classpath:applicationContext.xml")
-//@ContextConfiguration(classes = SpringConfig.class)
+@ContextConfiguration(classes = SpringConfig.class)
 public class TestFind {
-//    @Autowired
-//    private  CustomerService customerService;
+    @Autowired
+    private  CustomerService customerService;
 
     @Test
     public void test1() throws Exception{
 //        ApplicationContext ac = new ClassPathXmlApplicationContext("applicationContext.xml");
-        ApplicationContext ac = new AnnotationConfigApplicationContext(SpringConfig.class);
-        CustomerService customerService = (CustomerService) ac.getBean("customerService");
+//        ApplicationContext ac = new AnnotationConfigApplicationContext(SpringConfig.class);
+//        CustomerService customerService = (CustomerService) ac.getBean("customerService");
         List<Customer> list = customerService.findAllCustomer();
         for (Customer customer:list){
             System.out.println(customer);

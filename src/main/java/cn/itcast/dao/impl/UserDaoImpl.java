@@ -7,6 +7,6 @@ import org.springframework.stereotype.Repository;
 public class UserDaoImpl implements UserDao {
     @Override
     public void save(){
-        System.out.println("持久层：用户保存...");
+        System.out.println("UserDaoImpl-持久层：用户保存...");
     }
 }
