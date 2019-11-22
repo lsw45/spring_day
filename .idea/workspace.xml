@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8c76fede-8319-4570-89a8-06e3f955386c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/dao/AccountDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/dao/impl/AcountDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/domain/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/rowmapper/AccountRowMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/cn/itcast/TestJdbcTemplate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/itcast/dao/impl/CustomerDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/dao/impl/CustomerDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/cn/itcast/TestProxy$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/cn/itcast/TestProxy$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/cn/itcast/TestProxy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/cn/itcast/TestProxy.class" afterDir="false" />
-    </list>
+    <list default="true" id="8c76fede-8319-4570-89a8-06e3f955386c" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
