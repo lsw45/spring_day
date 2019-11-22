@@ -8,9 +8,9 @@
         http://www.springframework.org/schema/context/spring-context.xsd">
 
     <!--开启注解扫描-->
-<!--    <context:component-scan base-package="cn.itcast"/>-->
+    <!--<context:component-scan base-package="cn.itcast"/>
 
-    <!--&lt;!&ndash;配置service&ndash;&gt;
+    &lt;!&ndash;配置service&ndash;&gt;
     <bean id="customerService" class="cn.itcast.service.impl.CustomerServiceImpl">
         &lt;!&ndash;给业务层注入dao&ndash;&gt;
         <property name="customerDao" ref="customerDao"/>
@@ -35,4 +35,13 @@
         <property name="username" value="root"/>
         <property name="password" value="root"/>
     </bean>-->
+
+    <!--<context:property-placeholder location="classpath:jdbc.properties" />
+    <bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource">
+        <property name="driverClassName" value="${jdbc.driverClass}"></property>
+        <property name="url" value="${jdbc.url}"></property>
+        <property name="username" value="${jdbc.username}"></property>
+        <property name="password" value="${jdbc.password}"></property>
+    </bean>-->
+
 </beans>

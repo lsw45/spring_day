@@ -1,35 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8c76fede-8319-4570-89a8-06e3f955386c" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="a02e5eae-4650-4920-8981-efb4059c6777" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/service/AccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/service/impl/AccountServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/cn/itcast/TestTransferMoney.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/itcast/dao/AccountDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/itcast/dao/impl/AcountDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/itcast/domain/Account.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/itcast/rowmapper/AccountRowMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cn/itcast/TestJdbcTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cn/itcast/TestJdbcTemplate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/itcast/dao/impl/CustomerDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/itcast/dao/impl/CustomerDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/cn/itcast/TestJdbcTemplate.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/cn/itcast/TestJdbcTemplate.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Interface" />
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1TrMd7CPkFt9rORhMoFF1Bh8j1P" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
-  </component>
-  <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\workspace\spring_day\src\main\resources" />
-    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -43,121 +40,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestJdbcTemplate.test1">
-    <configuration name="TestIOC.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring_day02" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.itcast.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cn.itcast" />
-      <option name="MAIN_CLASS_NAME" value="cn.itcast.TestIOC" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestIOC.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring_day02" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.itcast.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cn.itcast" />
-      <option name="MAIN_CLASS_NAME" value="cn.itcast.TestIOC" />
-      <option name="METHOD_NAME" value="test3" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestJdbcTemplate.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring_day02" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.itcast.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cn.itcast" />
-      <option name="MAIN_CLASS_NAME" value="cn.itcast.TestJdbcTemplate" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestProxy.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring_day02" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.itcast.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cn.itcast" />
-      <option name="MAIN_CLASS_NAME" value="cn.itcast.TestProxy" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestProxy.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring_day02" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.itcast.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cn.itcast" />
-      <option name="MAIN_CLASS_NAME" value="cn.itcast.TestProxy" />
-      <option name="METHOD_NAME" value="test2" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JUnit.TestJdbcTemplate.test1" />
-        <item itemvalue="JUnit.TestProxy.test2" />
-        <item itemvalue="JUnit.TestProxy.test1" />
-        <item itemvalue="JUnit.TestIOC.test3" />
-        <item itemvalue="JUnit.TestIOC.test1" />
-      </list>
-    </recent_temporary>
-  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="8c76fede-8319-4570-89a8-06e3f955386c" name="Default Changelist" comment="" />
-      <created>1574213845211</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1574213845211</updated>
-    </task>
     <servers />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
 </project>

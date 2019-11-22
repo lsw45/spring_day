@@ -1,6 +1,7 @@
 package cn.itcast;
 
 import cn.itcast.config.SpringConfig;
+import cn.itcast.dao.AccountDao;
 import cn.itcast.dao.impl.CustomerDaoImpl;
 import cn.itcast.domain.Account;
 import org.junit.Test;
@@ -16,7 +17,7 @@ public class TestJdbcTemplate {
     @Autowired
     JdbcTemplate jdbcTemplate;
     @Autowired
-    CustomerDaoImpl customerDaoImpl;
+    AccountDao accountDao;
 
     @Test
     public void test1(){
@@ -26,8 +27,8 @@ public class TestJdbcTemplate {
     @Test
     public void test2(){
         Account account = new Account();
-        account.setMoney(100);
+        account.setMoney(100.0);
         account.setName("lsw");
-        customerDaoImpl.saveAccount(account);
+        accountDao.save(account);
     }
 }
