@@ -8,6 +8,8 @@ import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.support.JdbcDaoSupport;
 import org.springframework.stereotype.Repository;
 
+import java.util.List;
+
 @Repository
 public class AccountDaoImpl implements AccountDao {
 
@@ -27,4 +29,9 @@ public class AccountDaoImpl implements AccountDao {
         return account;
     }
 
+    @Override
+    public List<Account> findAll(){
+        List<Account> list = jdbcTemplate.query("select * from account",new AccountRowMapper());
+        return list;
+    }
 }

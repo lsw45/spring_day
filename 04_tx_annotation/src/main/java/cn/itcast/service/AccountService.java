@@ -2,6 +2,8 @@ package cn.itcast.service;
 
 import cn.itcast.domain.Account;
 
+import java.util.List;
+
 public interface AccountService {
     /**
      * 转账方法
@@ -12,4 +14,6 @@ public interface AccountService {
     void transfer(Long fromId, Long toId, Double money);
 
     Account findAccountById(Long id);
+
+    List<Account> findAllAccount();
 }

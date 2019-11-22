@@ -7,6 +7,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import java.util.List;
+
 @Service
 @Transactional//该类中所有的方法都会加事务
 public class AccountServiceImpl implements AccountService {
@@ -40,5 +42,10 @@ public class AccountServiceImpl implements AccountService {
         account.setMoney(account.getMoney() + 100);
         accountDao.update(account);
         return account;
+    }
+
+    @Override
+    public List<Account> findAllAccount() {
+        return accountDao.findAll();
     }
 }
