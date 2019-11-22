@@ -6,6 +6,6 @@ import org.springframework.context.annotation.Import;
 
 @Configuration
 @ComponentScan(basePackages = "cn.itcast")
-@Import(JdbcConfig.class)
+@Import({JdbcConfig.class})
 public class SpringConfig {
 }
