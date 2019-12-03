@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a02e5eae-4650-4920-8981-efb4059c6777" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/practice/threadLock.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/itcast/practice/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/practice/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/itcast/practice/thread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/practice/thread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/itcast/dao/impl/CustomerDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/itcast/dao/impl/CustomerDaoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/itcast/dao/impl/ThreadTest$MyIgnorePolicy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/itcast/dao/impl/ThreadTest$MyTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/itcast/dao/impl/ThreadTest$NameTreadFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/itcast/dao/impl/ThreadTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/itcast/practice/threadLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/practice/threadLock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/itcast/practice/threadLock$Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/itcast/practice/threadLock$Account.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/itcast/practice/threadLock$MyIgnorePolicy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/itcast/practice/threadLock$MyIgnorePolicy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/itcast/practice/threadLock$NameTreadFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/itcast/practice/threadLock$NameTreadFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/itcast/practice/threadLock.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/itcast/practice/threadLock.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

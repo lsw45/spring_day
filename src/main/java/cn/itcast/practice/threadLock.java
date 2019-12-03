@@ -24,9 +24,21 @@ public class threadLock {
             }
         }
 
+        // 取款
+        void push(Integer amt) {
+            this.balance += amt;
+        }
+
         // 查看余额
-        Integer getBalance() {
+        Integer check() throws InterruptedException {
+            Thread.sleep(5000); //让任务执行慢点
+            return balance;
+        }
+
+        // 查看余额
+        Integer getBalance() throws InterruptedException {
             synchronized (balLock) {
+                Thread.sleep(5000); //让任务执行慢点
                 return balance;
             }
         }
@@ -52,8 +64,9 @@ public class threadLock {
         @Override
         public void run() {
             try {
+                withdraw(10);
+                Thread.sleep(5000); //让任务执行慢点
                 System.out.println(getBalance() + " is running……");
-                Thread.sleep(3000); //让任务执行慢点
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
@@ -74,8 +87,10 @@ public class threadLock {
         Account account = new Account(new Integer(1000));
 
         for (int i = 1; i <= 10; i++) {
-            account.withdraw(10);
             executor.execute(account);//execute(Runnable)方法中提交新任务
+            account.withdraw(10);
+//            account.push(10);
+//            System.out.println(account.getBalance() + " done");
         }
 
         System.in.read(); //阻塞主线程
