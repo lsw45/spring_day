@@ -3,18 +3,11 @@ package cn.itcast.practice;
 import java.util.Date;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
-// import SnowflakeDistributeId;
 
-public class DateTest {
+class DateTest {
 	public static void main(String[] args) {
-                // calendar();
-                SnowflakeDistributeId idWorker = new SnowflakeDistributeId(0, 0);
-                for (int i = 0; i < 10; i++) {
-                    long id = idWorker.nextId();
-            //      System.out.println(Long.toBinaryString(id));
-                    System.out.println(id);
-                }
-        }
+	        calendar();
+	}
 
         public static void date(){
                 Date now= new Date();
