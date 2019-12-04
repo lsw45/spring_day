@@ -14,13 +14,30 @@
         <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
     </listener>
 
-    <servlet>
-        <servlet-name>AccountServlet</servlet-name>
-        <servlet-class>cn.itcast.servlet.AccountServlet</servlet-class>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>AccountServlet</servlet-name>
-        <url-pattern>/AccountServlet</url-pattern>
-    </servlet-mapping>
+    <!-- springmvc入口 -->
+<!--    <servlet>-->
+<!--        <servlet-name>AccountServlet</servlet-name>-->
+<!--        <servlet-class>cn.itcast.servlet.AccountServlet</servlet-class>-->
+<!--    </servlet>-->
+<!--    <servlet-mapping>-->
+<!--        <servlet-name>AccountServlet</servlet-name>-->
+<!--        <url-pattern>/AccountServlet</url-pattern>-->
+<!--    </servlet-mapping>-->
 
+    <!-- springmvc入口 -->
+    <servlet>
+        <servlet-name>springmvc</servlet-name>
+        <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+        <!-- 项目启动时，就加载并实例化 -->
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+    <!--
+        /*拦截所有请求
+        /拦截所有请求，不包括jsp
+        *.do表示拦截所有以.do结尾的请求
+     -->
+    <servlet-mapping>
+        <servlet-name>springmvc</servlet-name>
+        <url-pattern>*.do</url-pattern>
+    </servlet-mapping>
 </web-app>
