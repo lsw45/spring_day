@@ -36,7 +36,7 @@ class Student{
         if(this.flag){
             try{
                 System.out.println("set wait for:"+this.flag);
-                this.wait();//wait是指在一个已经进入了同步锁的线程内，让自己暂时让出同步锁，
+                this.wait();//wait是指在一个已经进入了同步锁的线程，自己暂时让出同步锁，
                 //以便其他正在等待此锁的线程可以得到同步锁并运行
             }catch(InterruptedException e){
                 e.printStackTrace();
