@@ -1,77 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8a324375-fb08-4f65-ab63-d23a2614be10" name="Default Changelist" comment="">
+    <list default="true" id="c51192fb-0d1b-4f49-b8a6-eb493927497a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/practice/HelloA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/practice/HelloB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/practice/main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/practice/notify_thread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/practice/staticInit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/practice/synchronize.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/practice/synchronizedZone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/practice/thread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/practice/threadLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/spring_day02.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/itcast/practice/ClassInitialization.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/itcast/practice/Communication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/itcast/practice/Communication2$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/itcast/practice/Communication2$Thread1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/itcast/practice/Communication2$Thread2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/itcast/practice/Communication2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/itcast/practice/DateTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/itcast/practice/HelloA.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/itcast/practice/HelloB.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/itcast/practice/Initable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/itcast/practice/Initable2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/itcast/practice/Initable3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/itcast/practice/Student.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/itcast/practice/ThreadTest$MyIgnorePolicy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/itcast/practice/ThreadTest$MyTask.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/itcast/practice/ThreadTest$NameTreadFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/itcast/practice/ThreadTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/itcast/practice/getThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/itcast/practice/setThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/itcast/practice/synchronizedZone$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/itcast/practice/synchronizedZone$MyRunable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/itcast/practice/synchronizedZone.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/itcast/practice/threadLock$Account.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/itcast/practice/threadLock$MyIgnorePolicy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/itcast/practice/threadLock$NameTreadFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/itcast/practice/threadLock.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04_tx_annotation/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/04_tx_annotation/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04_tx_annotation/.idea/libraries/Maven__com_alibaba_druid_1_1_10.xml" beforeDir="false" afterPath="$PROJECT_DIR$/04_tx_annotation/.idea/libraries/Maven__com_alibaba_druid_1_1_10.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04_tx_annotation/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_6_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/04_tx_annotation/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_6_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04_tx_annotation/.idea/libraries/Maven__javax_servlet_jsp_api_2_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/04_tx_annotation/.idea/libraries/Maven__javax_servlet_jsp_api_2_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04_tx_annotation/.idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/04_tx_annotation/.idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04_tx_annotation/.idea/libraries/Maven__jstl_jstl_1_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/04_tx_annotation/.idea/libraries/Maven__jstl_jstl_1_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04_tx_annotation/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/04_tx_annotation/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04_tx_annotation/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" beforeDir="false" afterPath="$PROJECT_DIR$/04_tx_annotation/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04_tx_annotation/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_13.xml" beforeDir="false" afterPath="$PROJECT_DIR$/04_tx_annotation/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_13.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04_tx_annotation/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/04_tx_annotation/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_4.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04_tx_annotation/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/04_tx_annotation/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04_tx_annotation/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" beforeDir="false" afterPath="$PROJECT_DIR$/04_tx_annotation/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04_tx_annotation/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_25.xml" beforeDir="false" afterPath="$PROJECT_DIR$/04_tx_annotation/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_25.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04_tx_annotation/.idea/libraries/Maven__org_springframework_spring_aop_5_1_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/04_tx_annotation/.idea/libraries/Maven__org_springframework_spring_aop_5_1_5_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04_tx_annotation/.idea/libraries/Maven__org_springframework_spring_aspects_5_1_9_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/04_tx_annotation/.idea/libraries/Maven__org_springframework_spring_aspects_5_1_9_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04_tx_annotation/.idea/libraries/Maven__org_springframework_spring_beans_5_1_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/04_tx_annotation/.idea/libraries/Maven__org_springframework_spring_beans_5_1_5_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04_tx_annotation/.idea/libraries/Maven__org_springframework_spring_context_5_1_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/04_tx_annotation/.idea/libraries/Maven__org_springframework_spring_context_5_1_5_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04_tx_annotation/.idea/libraries/Maven__org_springframework_spring_core_5_1_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/04_tx_annotation/.idea/libraries/Maven__org_springframework_spring_core_5_1_5_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04_tx_annotation/.idea/libraries/Maven__org_springframework_spring_expression_5_1_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/04_tx_annotation/.idea/libraries/Maven__org_springframework_spring_expression_5_1_5_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04_tx_annotation/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/04_tx_annotation/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_5_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04_tx_annotation/.idea/libraries/Maven__org_springframework_spring_jdbc_5_1_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/04_tx_annotation/.idea/libraries/Maven__org_springframework_spring_jdbc_5_1_5_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04_tx_annotation/.idea/libraries/Maven__org_springframework_spring_test_5_1_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/04_tx_annotation/.idea/libraries/Maven__org_springframework_spring_test_5_1_5_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04_tx_annotation/.idea/libraries/Maven__org_springframework_spring_tx_5_1_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/04_tx_annotation/.idea/libraries/Maven__org_springframework_spring_tx_5_1_5_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04_tx_annotation/spring_day04_tx_annotation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/04_tx_annotation/spring_day04_tx_annotation.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/itcast/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/itcast/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/itcast/action/UserAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/itcast/action/UserAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/itcast/dao/impl/CustomerDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/dao/impl/CustomerDaoImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/cn/itcast/config/JdbcConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/itcast/config/JdbcConfig.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/cn/itcast/config/SpringConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/itcast/config/SpringConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/itcast/dao/AccountDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/itcast/dao/AccountDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/itcast/dao/CustomerDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/itcast/dao/CustomerDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/itcast/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/itcast/dao/UserDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/itcast/dao/impl/AcountDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/itcast/dao/impl/AcountDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/itcast/config/TransactionConfig.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/cn/itcast/dao/impl/CustomerDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/itcast/dao/impl/CustomerDaoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/itcast/dao/impl/UserDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/itcast/dao/impl/UserDaoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/itcast/dao/impl/UserDaoImpl2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/itcast/dao/impl/UserDaoImpl2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/cn/itcast/domain/Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/itcast/domain/Account.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/itcast/domain/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/itcast/domain/Customer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/itcast/rowmapper/AccountRowMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/itcast/rowmapper/AccountRowMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/itcast/service/AccountService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/itcast/service/AccountService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/itcast/service/CustomerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/itcast/service/CustomerService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/itcast/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/itcast/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/itcast/service/impl/AccountServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/itcast/service/impl/AccountServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/itcast/service/impl/CustomerServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/itcast/service/impl/CustomerServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/itcast/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/itcast/service/impl/UserServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/cn/itcast/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/cn/itcast/AppTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/cn/itcast/TestFind.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/cn/itcast/TestFind.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/cn/itcast/TestIOC.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/cn/itcast/TestIOC.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/cn/itcast/TestJdbcTemplate.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/cn/itcast/TestJdbcTemplate.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/cn/itcast/TestProxy$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/cn/itcast/TestProxy$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/cn/itcast/TestProxy$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/cn/itcast/TestProxy$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/cn/itcast/TestProxy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/cn/itcast/TestProxy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/cn/itcast/TestTransferMoney.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/cn/itcast/TestTransferMoney.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="ProjectId" id="1TykMcE4DwDOyJ9y0eKnl6e0FsX" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
-  <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/04_tx_annotation" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -90,11 +69,11 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="8a324375-fb08-4f65-ab63-d23a2614be10" name="Default Changelist" comment="" />
-      <created>1574439676048</created>
+      <changelist id="c51192fb-0d1b-4f49-b8a6-eb493927497a" name="Default Changelist" comment="" />
+      <created>1576394768168</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1574439676048</updated>
+      <updated>1576394768168</updated>
     </task>
     <servers />
   </component>
@@ -103,9 +82,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
