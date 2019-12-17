@@ -44,7 +44,7 @@
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-test</artifactId>
-      <version>5.1.4.RELEASE</version>
+      <version>5.1.5.RELEASE</version>
     </dependency>
     <dependency>
       <groupId>mysql</groupId>
@@ -69,6 +69,17 @@
       <version>5.1.5.RELEASE</version>
       <scope>test</scope>
     </dependency>
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-test</artifactId>
+      <version>2.2.0.RELEASE</version>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-web</artifactId>
+      <version>5.2.1.RELEASE</version>
+    </dependency>
+
   </dependencies>
 
   <build>
@@ -110,6 +121,7 @@
           <version>3.7.1</version>
         </plugin>
         <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-project-info-reports-plugin</artifactId>
           <version>3.0.0</version>
         </plugin>

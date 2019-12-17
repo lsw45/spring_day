@@ -12,10 +12,10 @@ class threadPool{
 
         for (int i=0;i<200;i++){
             // 通过对象池获取 t，之后执行
-            pool.exec(t -> {
+            /*pool.exec(t -> {
                 System.out.println(t);
                 return t.toString();
-            });
+            });*/
         }
     }
 }
