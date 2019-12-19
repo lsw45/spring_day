@@ -19,7 +19,7 @@ public class RestTemplatePost {
         ByteArrayResource resource = new ByteArrayResource(codeFile){
             @Override
             public String getFilename() {
-                return "code";
+                 return "code";
             }
         };
 
@@ -35,14 +35,17 @@ public class RestTemplatePost {
         HttpEntity<LinkedMultiValueMap<String, Object>> requestEntity = new HttpEntity<>(params, headers);
 
         RestTemplate restTemplate = new RestTemplate();
-        ResponseEntity<String> responseEntity = restTemplate.exchange("/upload",
-                HttpMethod.POST, requestEntity, String.class);
 
-        HttpStatus statusCode = responseEntity.getStatusCode();
+        // Http的操作需要有异常处理，无论是HttpClient还是封装的restTemplate当请求超时或者返回Http状态码为4xx或者5xx时，均会抛出异常
+        try{
+            ResponseEntity<String> responseEntity = restTemplate.exchange("www.baidu.com", HttpMethod.POST, requestEntity, String.class);
+            result = responseEntity.getBody();
+            System.out.println("券系统返回："+responseEntity);
+            System.out.println("请求体："+requestEntity);
+        }catch (Exception e){
 
-        result = responseEntity.getBody();
-        System.out.println("券系统返回："+responseEntity);
-        System.out.println("请求体："+requestEntity);
+        }
+
         return result;
     }
 }

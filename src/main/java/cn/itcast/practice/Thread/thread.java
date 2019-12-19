@@ -1,4 +1,4 @@
-package cn.itcast.practice;
+package cn.itcast.practice.Thread;
 //线程池
 import java.util.concurrent.*;
 import java.util.concurrent.atomic.AtomicInteger;

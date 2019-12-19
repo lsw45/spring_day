@@ -1,4 +1,4 @@
-package cn.itcast.practice;
+package cn.itcast.practice.Thread;
 
 import java.util.List;
 import java.util.Vector;
