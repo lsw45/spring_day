@@ -5,17 +5,18 @@ import java.util.Vector;
 import java.util.concurrent.Semaphore;
 import java.util.function.Function;
 
+// 限流器，类似于对象池
 class threadPool{
     public static void main(String[] args) throws InterruptedException {
         // 创建对象池
-        ObjPool<Long, String> pool = new ObjPool<Long, String>(1, 2l);
+        ObjPool<Long, String> pool = new ObjPool<>(1, 2l);
 
         for (int i=0;i<200;i++){
             // 通过对象池获取 t，之后执行
-            /*pool.exec(t -> {
+            pool.exec(t -> {
                 System.out.println(t);
                 return t.toString();
-            });*/
+            });
         }
     }
 }
@@ -31,7 +32,7 @@ class ObjPool<T, R> {
         }
         sem = new Semaphore(size);
     }
-    // 利用对象池的对象，调用 func
+    // 利用对象池的对象，调用 func:在Function接口中，T代表输入参数，R代表返回的结果。
     R exec(Function<T,R> func) throws InterruptedException {
         T t = null;
         sem.acquire(); //减1

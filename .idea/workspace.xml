@@ -1,9 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a02e5eae-4650-4920-8981-efb4059c6777" name="Default Changelist" comment="InputStream和Reader">
+    <list default="true" id="a02e5eae-4650-4920-8981-efb4059c6777" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/practice/sync/CycliBarrierTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/practice/sync/SemaphoreDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/practice/sync/ThreadExchanger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/itcast/practice/FileByteToStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/practice/FileByteToStream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/itcast/practice/Thread/thread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/practice/Thread/ThreadPoolTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/itcast/practice/Thread/threadPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/practice/Thread/SemaphoreLimiter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/itcast/practice/http/RestTemplatePostForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/practice/http/RestTemplatePostForm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/itcast/service/impl/RestTemplatePost.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/service/impl/RestTemplatePost.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/itcast/practice/http/RestTemplatePostForm.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/itcast/practice/http/RestTemplatePostForm.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/itcast/service/impl/RestTemplatePost$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/itcast/service/impl/RestTemplatePost$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/itcast/service/impl/RestTemplatePost.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/itcast/service/impl/RestTemplatePost.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -66,13 +75,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FileByteToStream">
-    <configuration name="CompletableFutureTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.itcast.practice.future.CompletableFutureTest" />
+  <component name="RunManager" selected="Application.ThreadExchanger">
+    <configuration name="CycliBarrierTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.itcast.practice.sync.CycliBarrierTest" />
       <module name="spring_day02" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.itcast.practice.future.*" />
+          <option name="PATTERN" value="cn.itcast.practice.sync.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="forkJoin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.itcast.practice.Thread.forkJoin" />
+    <configuration name="SemaphoreDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.itcast.practice.sync.SemaphoreDemo" />
       <module name="spring_day02" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.itcast.practice.Thread.*" />
+          <option name="PATTERN" value="cn.itcast.practice.sync.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,12 +115,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="makeTea" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.itcast.practice.future.makeTea" />
+    <configuration name="ThreadExchanger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.itcast.practice.sync.ThreadExchanger" />
       <module name="spring_day02" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.itcast.practice.future.*" />
+          <option name="PATTERN" value="cn.itcast.practice.sync.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,8 +128,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="objEmptyPtr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.itcast.practice.objEmptyPtr" />
+    <configuration name="threadPool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.itcast.practice.Thread.threadPool" />
       <module name="spring_day02" />
       <extension name="coverage">
         <pattern>
@@ -134,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ThreadExchanger" />
+        <item itemvalue="Application.CycliBarrierTest" />
+        <item itemvalue="Application.SemaphoreDemo" />
+        <item itemvalue="Application.threadPool" />
         <item itemvalue="Application.FileByteToStream" />
-        <item itemvalue="Application.forkJoin" />
-        <item itemvalue="Application.objEmptyPtr" />
-        <item itemvalue="Application.CompletableFutureTest" />
-        <item itemvalue="Application.makeTea" />
       </list>
     </recent_temporary>
   </component>
@@ -167,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576742831074</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="InputStream和Reader">
+      <created>1576745655719</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1576745655719</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

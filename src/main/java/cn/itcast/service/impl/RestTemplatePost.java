@@ -8,7 +8,6 @@ import org.springframework.web.client.RestTemplate;
 
 @Service
 public class RestTemplatePost {
-
     public static void main(String[] args){
 
     }

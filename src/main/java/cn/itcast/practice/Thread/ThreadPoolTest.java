@@ -38,7 +38,7 @@ class ThreadTest {
         }
     }
 
-    public static void main(String[] args) throws InterruptedException, IOException {
+    public static void main(String[] args) throws IOException {
         int corePoolSize = 2;
         int maximumPoolSize = 4;
         long keepAliveTime = 10; //如果线程池当前拥有超过corePoolSize的线程，那么多余的线程在空闲时间超过keepAliveTime时会被终止
