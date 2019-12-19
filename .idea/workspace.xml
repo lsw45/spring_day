@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a02e5eae-4650-4920-8981-efb4059c6777" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/practice/sync/CycliBarrierTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/practice/sync/SemaphoreDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/practice/sync/ThreadExchanger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/practice/lambdaFunction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/itcast/practice/Thread/thread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/practice/Thread/ThreadPoolTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/itcast/practice/Thread/threadPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/practice/Thread/SemaphoreLimiter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/itcast/practice/http/RestTemplatePostForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/practice/http/RestTemplatePostForm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/itcast/service/impl/RestTemplatePost.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/service/impl/RestTemplatePost.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/itcast/practice/http/RestTemplatePostForm.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/itcast/practice/http/RestTemplatePostForm.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/itcast/service/impl/RestTemplatePost$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/itcast/service/impl/RestTemplatePost$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/itcast/service/impl/RestTemplatePost.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/itcast/service/impl/RestTemplatePost.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
