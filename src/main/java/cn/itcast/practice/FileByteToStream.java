@@ -1,6 +1,7 @@
 package cn.itcast.practice;
 
 import java.io.*;
+import java.nio.CharBuffer;
 import java.util.LinkedList;
 import java.util.List;
 import com.monitorjbl.xlsx.StreamingReader;
@@ -24,16 +25,7 @@ import org.junit.platform.commons.util.StringUtils;
  *  FileReader与InputStreamReader涉及编码转换(指定编码方式或者采用os默认编码)，可能在不同的平台上出现乱码现象！而FileInputStream以二进制方式处理，不会出现乱码现象.
  */
 
-// 字节流的每一行数据以换行符分割
 
-/**
- * 字符串List，读取出文件流
-*  List<String> codeList;
-*  StringBuffer buffer = new StringBuffer();
-*  codeList.forEach(e -> buffer.append(e).append("\n"));
-*  byte[] codeBytes = buffer.toString().getBytes();
-*  System.out.println(codeBytes);
- */
 public class FileByteToStream {
 
     public static void main(String[] args) throws IOException {
@@ -41,8 +33,11 @@ public class FileByteToStream {
 
         File file = new File(filePath);
         FileInputStream in1=new FileInputStream(file);
+//        ListToFileByte(in1);
+//        getTextByLine(in1);
+        getTextByLine2(in1);
         in1.close();
-
+        
         File file2 = new File ("hello.txt");
         FileInputStream in2=new FileInputStream(file2);
         InputStreamReader inReader=new InputStreamReader(in2,"GBK");
@@ -54,8 +49,61 @@ public class FileByteToStream {
         BufferedReader bufReader3=new BufferedReader(fileReader);
     }
 
+    // 按行读取文本: InputStreamReader的while((ch = isr.read())!=-1)
+    private static List<String> getTextByLine(InputStream in) throws IOException {
+        List<String> numberList = new LinkedList<>();
+        InputStreamReader isr = new InputStreamReader(in,"GBK");
+        int ch = 0;
+        char[] chbuff = new char[1024];
+        while((ch = isr.read())!=-1 ){
+            int len = isr.read(chbuff);
+            numberList.add(new String(chbuff,0,len));
+        }
+        isr.close();
+        System.out.println(numberList);
+        return numberList;
+    }
+
+    // 按行读取文本: BufferedReader的readLine()
+    private static List<String> getTextByLine2(InputStream in) throws IOException {
+        List<String> numberList = new LinkedList<>();
+        InputStreamReader isr = new InputStreamReader(in,"GBK");
+        BufferedReader bfr = new BufferedReader(isr);
+        String line = null;
+
+
+        while ((line = bfr.readLine()) != null){
+            if (("").equals(line)){
+                continue;
+            }
+            numberList.add(line+"\n");
+        }
+        System.out.println(numberList);
+
+//        StringBuilder sb = new StringBuilder();
+//        while ((line = bfr.readLine()) != null){
+//            sb.append(line+"\n");
+//        }
+//        System.out.println(sb.toString());
+
+        isr.close();
+        bfr.close();
+
+        return numberList;
+    }
+
+    /**
+     * 字符串List，读取出
+     * 字节流的每一行数据以换行符分割
+     */
+    public static byte[] ListToFileByte(FileInputStream in) throws IOException {
+        List<String> codeList = getTextByLine(in);
+        StringBuffer buffer = new StringBuffer();
+        codeList.forEach(e -> buffer.append(e).append("\n"));
+        return buffer.toString().getBytes();
+    }
     // 读取excel除第一列（第一行除外）
-    private static List<String> getCodeList(InputStream in) {
+    private static List<String> getExcelList(InputStream in) {
         List<String> numberList = new LinkedList<>();
         /*
          * 使用xlsx-streamer而不适用poi,因为poi读取大量数据的excel会导致内存溢出的问题,

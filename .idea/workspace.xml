@@ -1,33 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a02e5eae-4650-4920-8981-efb4059c6777" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/practice/Thread/forkJoin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/practice/objEmptyPtr.java" afterDir="false" />
+    <list default="true" id="a02e5eae-4650-4920-8981-efb4059c6777" name="Default Changelist" comment="InputStream和Reader">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/itcast/practice/notify_thread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/practice/Thread/notify_thread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/itcast/practice/thread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/practice/Thread/thread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/itcast/practice/threadLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/practice/Thread/threadLock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/itcast/practice/threadPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/practice/Thread/threadPool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/itcast/service/impl/RestTemplatePost.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/service/impl/RestTemplatePost.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/itcast/practice/Communication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/itcast/practice/ObjPool$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/itcast/practice/ObjPool.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/itcast/practice/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/itcast/practice/ThreadTest$MyIgnorePolicy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/itcast/practice/ThreadTest$MyTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/itcast/practice/ThreadTest$NameTreadFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/itcast/practice/ThreadTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/itcast/practice/future/CompletableFutureTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/itcast/practice/future/CompletableFutureTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/itcast/practice/getThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/itcast/practice/setThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/itcast/practice/threadLock$Account.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/itcast/practice/threadLock$MyIgnorePolicy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/itcast/practice/threadLock$NameTreadFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/itcast/practice/threadLock.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/itcast/practice/threadPool.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/itcast/service/impl/RestTemplatePost.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/itcast/service/impl/RestTemplatePost.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/itcast/practice/FileByteToStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/practice/FileByteToStream.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -184,7 +160,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576740971252</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="InputStream和Reader">
+      <created>1576742831074</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1576742831074</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
