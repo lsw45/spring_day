@@ -1,7 +1,5 @@
-package cn.itcast.domain;
-
+package cn.itcast.model;
 import org.springframework.stereotype.Repository;
-
 import java.io.Serializable;
 
 @Repository

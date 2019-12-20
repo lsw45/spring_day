@@ -1,4 +1,4 @@
-package cn.itcast.domain;
+package cn.itcast.model;
 
 import org.springframework.stereotype.Controller;
 

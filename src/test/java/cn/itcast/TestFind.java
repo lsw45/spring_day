@@ -1,14 +1,11 @@
 package cn.itcast;
 
 import cn.itcast.config.SpringConfig;
-import cn.itcast.domain.Customer;
+import cn.itcast.model.Customer;
 import cn.itcast.service.CustomerService;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.ApplicationContext;
-import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 

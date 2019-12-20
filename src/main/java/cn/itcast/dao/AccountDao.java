@@ -1,6 +1,6 @@
 package cn.itcast.dao;
 
-import cn.itcast.domain.Account;
+import cn.itcast.model.Account;
 
 import java.util.List;
 

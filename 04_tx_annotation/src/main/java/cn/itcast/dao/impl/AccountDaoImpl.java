@@ -1,7 +1,7 @@
 package cn.itcast.dao.impl;
 
 import cn.itcast.dao.AccountDao;
-import cn.itcast.domain.Account;
+import cn.itcast.model.Account;
 import cn.itcast.rowmapper.AccountRowMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;

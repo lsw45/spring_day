@@ -3,7 +3,6 @@ package cn.itcast;
 import cn.itcast.config.SpringConfig;
 import cn.itcast.dao.CustomerDao;
 import cn.itcast.dao.impl.CustomerDaoImpl;
-import cn.itcast.domain.Customer;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;

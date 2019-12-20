@@ -1,6 +1,6 @@
 package cn.itcast.rowmapper;
 
-import cn.itcast.domain.Account;
+import cn.itcast.model.Account;
 import org.springframework.jdbc.core.RowMapper;
 
 import java.sql.ResultSet;

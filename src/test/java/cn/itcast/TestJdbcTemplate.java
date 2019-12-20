@@ -2,8 +2,7 @@ package cn.itcast;
 
 import cn.itcast.config.SpringConfig;
 import cn.itcast.dao.AccountDao;
-import cn.itcast.dao.impl.CustomerDaoImpl;
-import cn.itcast.domain.Account;
+import cn.itcast.model.Account;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
