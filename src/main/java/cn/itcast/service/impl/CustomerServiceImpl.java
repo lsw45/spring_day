@@ -1,7 +1,7 @@
 package cn.itcast.service.impl;
 
 import cn.itcast.dao.CustomerDao;
-import cn.itcast.domain.Customer;
+import cn.itcast.model.Customer;
 import cn.itcast.service.CustomerService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

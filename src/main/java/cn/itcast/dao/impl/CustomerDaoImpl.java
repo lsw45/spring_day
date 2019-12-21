@@ -1,7 +1,7 @@
 package cn.itcast.dao.impl;
 
 import cn.itcast.dao.CustomerDao;
-import cn.itcast.domain.Customer;
+import cn.itcast.model.Customer;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.BeanPropertyRowMapper;
 import org.springframework.jdbc.core.JdbcTemplate;

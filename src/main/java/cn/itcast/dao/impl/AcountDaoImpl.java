@@ -1,8 +1,8 @@
 package cn.itcast.dao.impl;
 
 import cn.itcast.dao.AccountDao;
-import cn.itcast.domain.Account;
-import cn.itcast.rowmapper.AccountRowMapper;
+import cn.itcast.model.Account;
+import cn.itcast.model.AccountRowMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Repository;
@@ -37,13 +37,15 @@ public class AcountDaoImpl implements AccountDao {
 
     @Override
     public Account findById(Long id) {
-        Account account = jdbcTemplate.queryForObject("select * from account where id = ?", new AccountRowMapper(), id);
+//        Account account = jdbcTemplate.queryForObject("select * from account where id = ?", new AccountRowMapper(), id);
+        Account account = null;
         return account;
     }
 
     @Override
     public List<Account> findAll() {
-        List<Account> list = jdbcTemplate.query("select * from account", new AccountRowMapper());
+//        List<Account> list = jdbcTemplate.query("select * from account", new AccountRowMapper());
+        List<Account> list = null;
         return list;
     }
 

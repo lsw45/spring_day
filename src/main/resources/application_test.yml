@@ -1,0 +1,4 @@
+elasticsearch:
+  url: http://127.0.0.1:9200
+  username: elastic
+  password: Cil_test_2019#

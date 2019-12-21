@@ -1,9 +1,12 @@
 package cn.itcast.model;
+import org.springframework.stereotype.Repository;
+import java.io.Serializable;
 
-public class Account {
-    private Long id;
+@Repository
+public class Account implements Serializable {
     private String name;
     private Double money;
+    private Long id;
 
     public Long getId() {
         return id;

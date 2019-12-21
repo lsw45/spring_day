@@ -1,6 +1,6 @@
 package cn.itcast.dao;
 
-import cn.itcast.domain.Customer;
+import cn.itcast.model.Customer;
 import java.util.List;
 
 public interface CustomerDao {
