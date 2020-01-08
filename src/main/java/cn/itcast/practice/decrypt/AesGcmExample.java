@@ -1,5 +1,7 @@
 package cn.itcast.practice.decrypt;
 
+import java.io.IOException;
+import java.security.GeneralSecurityException;
 import java.security.PublicKey;
 import javax.crypto.Cipher;
 import javax.crypto.spec.GCMParameterSpec;
@@ -22,15 +24,18 @@ public class AesGcmExample {
         cipher.updateAAD(aad.getBytes());
         return new String(cipher.doFinal(Base64.getDecoder().decode(cipherText)));
     }
-    public static void main(String[] args) {
+    public static void main(String[] args) throws GeneralSecurityException, IOException {
         final String associatedData = "mall_transaction"; // encrypt_certificate.associated_data
         final String nonce = "ozOhsln77kRB"; // encrypt_certificate.nonce
         final String cipherText = "Oq1f8IDGqmwh65TYOcnbOa+YM+zoIm/PZojsLLJKPOyXveuQtsS54Nh/RzU/FkKruR/C9qG8NUurry5HOctaf2p+KzBZNqGfdaT3FHDeIoyfDXCkaleZMApKLZ3qmHtNuoDtNUYhJXOIjVat8rXHG0++XwF5BVfPph4ClWujJheg62HSkiipknmt9Q3Mt2+ZwJx95LsJfIapnkhWo0qjj7YF6OS7vcWjilrrngpUKMifnGKv0QC4/z/McMo6Z6qAo7FtRa+YuR7who1YleWjuVGsDeotoP+9MmOfvPEDG2iS/RhH2Sn+RXDs1k0gOvp62BeX3vLEEYK/Ck/UMVL5fGDQso7/viN5cLG8Un5Uct9lx3beI/6Hqwv0nk4jb5nJ1XkI"; // encrypt_certificate.ciphertext
-        try {
-            String wechatpayCert = aesgcmDecrypt(associatedData, nonce, cipherText);
-            System.out.println(wechatpayCert);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
+//        try {
+//            String wechatpayCert = aesgcmDecrypt(associatedData, nonce, cipherText);
+//            System.out.println(wechatpayCert);
+//        } catch (Exception e) {
+//            e.printStackTrace();
+//        }
+
+        AesUtil util = new AesUtil(AES_KEY.getBytes());
+        util.decryptToString(associatedData.getBytes(),nonce.getBytes(),cipherText);
     }
 }
