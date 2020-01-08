@@ -9,7 +9,7 @@ import java.util.Base64;
 
 public class AesGcmExample {
     private static final String ALGORITHM = "AES/GCM/NoPadding";
-    private static final int TAG_LENGTH_BIT = 128;
+    private static final int TAG_LENGTH_BIT = 96;
     private static final int NONCE_LENGTH_BYTE = 12;
     private static final String AES_KEY = "91320402MA1UUEJ25Etnwy0288878888"; // APIv3 密钥
     private static final String TRANSFORMATION_PKCS1Padding = "RSA/ECB/PKCS1Padding";
